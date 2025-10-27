@@ -1,0 +1,75 @@
+/* frontend/src/App.css */
+
+/* Basic reset and dark theme */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #282c34;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  /* ADD THESE THREE LINES TO CENTER CONTENT */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers items horizontally in a column flex container */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  /* Ensure the H1 itself is not too wide, or it won't appear centered */
+  width: fit-content; /* Or just remove any width constraints if present */
+}
+
+
+/* Products container */
+.products-container {
+  display: flex;
+  justify-content: center; /* This centers the cards themselves */
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Optional: Constrain width if needed for very large screens */
+  width: 100%; /* Ensure it takes full width of its parent to allow centering */
+}
+
+/* Individual product card */
+.product-card {
+  background-color: #1e1e1e;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Buy Now button */
+.buy-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
