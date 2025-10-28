@@ -7,8 +7,7 @@ This project is a simple full-stack application demonstrating how to connect a *
 This is what the application looks like when running:
 
 ![Product List Screenshot]
-https://github.com/ravishankar1810/Connecting-React-Frontend-to-Express-API-Using-Axios/blob/f604d8dd15f09045bcf1145b1aa780e9b45acfd1/Screenshot%202025-10-29%20031516.png
-
+Screenshot 2025-10-29 031516.png
 
 ***Note: To add your image, take a screenshot, save it in your project's root folder as `result-image.png`, and this line will automatically display it.***
 
