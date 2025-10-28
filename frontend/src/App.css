@@ -1,6 +1,4 @@
-/* frontend/src/App.css */
 
-/* Basic reset and dark theme */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,21 +11,19 @@ body {
 .App {
   text-align: center;
   padding: 2rem;
-  /* ADD THESE THREE LINES TO CENTER CONTENT */
   display: flex;
   flex-direction: column;
-  align-items: center; /* This centers items horizontally in a column flex container */
+  align-items: center; 
 }
 
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   /* Ensure the H1 itself is not too wide, or it won't appear centered */
-  width: fit-content; /* Or just remove any width constraints if present */
+  width: fit-content; 
 }
 
 
-/* Products container */
 .products-container {
   display: flex;
   justify-content: center; /* This centers the cards themselves */
@@ -57,7 +53,6 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-/* Buy Now button */
 .buy-button {
   background-color: #007bff;
   color: white;
