@@ -8,8 +8,6 @@ This is what the application looks like when running:
 
 ![Product List Screenshot](https://github.com/ravishankar1810/Connecting-React-Frontend-to-Express-API-Using-Axios/blob/547d7a475b9c9f0e77c9d988914e967a4ec708d7/Screenshot%202025-10-29%20031516.png)
 
-
-
 ---
 
 ## 🛠 Technologies Used
