@@ -6,7 +6,7 @@ This project is a simple full-stack application demonstrating how to connect a *
 
 This is what the application looks like when running:
 
-![Product List Screenshot](./result-image.png)
+![Product List Screenshot](Screenshot 2025-10-29 031516.png)
 
 ***Note: To add your image, take a screenshot, save it in your project's root folder as `result-image.png`, and this line will automatically display it.***
 
